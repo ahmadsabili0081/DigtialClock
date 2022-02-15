@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+}
+.clock{
+    width: 400px;
+    margin: 100px auto;
+    font-size: 60px;
+    color: #17D4fe;
+    font-family: sans-serif;
+    text-align: center;
+    user-select: none;
+}
+@media screen and (max-width:570px) {
+    .clock{
+        width: 100%;
+    }
+}
